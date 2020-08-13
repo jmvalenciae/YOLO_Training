@@ -73,4 +73,5 @@ def main(_argv):
         dataset.transform_images(x, FLAGS.size),
         dataset.transform_targets_yolov4(y, anchors, anchor_masks, FLAGS.size)))
 
+    print("this is a test")
     print("train_dataset",train_dataset)
