@@ -75,7 +75,7 @@ def main(_argv):
 
     print("train_dataset",train_dataset)
 
-if __name__=="__main__"
+if __name__=="__main__":
     try:
         app.run(main)
     except SystemExit:
